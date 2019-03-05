@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from themes.potenzaglobalsolutions.com/html/webmin-bootstrap-4-angular-5-admin-dashboard-template/html-dark/app-contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Mar 2019 03:36:33 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Webmin - Bootstrap 4 & Angular 5 Admin Dashboard Template" />
+    <meta name="author" content="potenzaglobalsolutions.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Webmin - Bootstrap 4 & Angular 5 Admin Dashboard Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!--=================================
+ preloader -->
+
+        <div id="pre-loader">
+            <img src="images/pre-loader/loader-01.svg" alt="">
+        </div>
+
+        <!--=================================
+ preloader -->
+
+
+        <!--=================================
+ header start-->
+
+        <nav class="admin-header navbar navbar-default col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <!-- logo -->
+            <div class="text-left navbar-brand-wrapper">
+                <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo-white.png" alt=""></a>
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-icon-light.png" alt=""></a>
+            </div>
+            <!-- Top bar left -->
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a id="button-toggle" class="button-toggle-nav inline-block ml-20 pull-left" href="javascript:void(0);"><i
+                            class="zmdi zmdi-menu ti-align-right"></i></a>
+                </li>
+                <li class="nav-item">
+                    <div class="search">
+                        <a class="search-btn not_click" href="javascript:void(0);"></a>
+                        <div class="search-box not-click">
+                            <input type="text" class="not-click form-control" placeholder="Search" value="" name="search">
+                            <button class="search-button" type="submit"> <i class="fa fa-search not-click"></i></button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- top bar right -->
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item fullscreen">
+                    <a id="btnFullscreen" href="#" class="nav-link"><i class="ti-fullscreen"></i></a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link top-nav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                        aria-expanded="false">
+                        <i class="ti-bell"></i>
+                        <span class="badge badge-danger notification-status"> </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-big dropdown-notifications">
+                        <div class="dropdown-header notifications">
+                            <strong>Notifications</strong>
+                            <span class="badge badge-pill badge-warning">05</span>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">New registered user <small class="float-right text-muted time">Just
+                                now</small>
+                        </a>
+                        <a href="#" class="dropdown-item">New invoice received <small class="float-right text-muted time">22
+                                mins</small>
+                        </a>
+                        <a href="#" class="dropdown-item">Server error report<small class="float-right text-muted time">7
+                                hrs</small>
+                        </a>
+                        <a href="#" class="dropdown-item">Database report<small class="float-right text-muted time">1
+                                days</small>
+                        </a>
+                        <a href="#" class="dropdown-item">Order confirmation<small class="float-right text-muted time">2
+                                days</small>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link top-nav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                        aria-expanded="true">
+                        <i class=" ti-view-grid"></i> </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-big">
+                        <div class="dropdown-header">
+                            <strong>Quick Links</strong>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="nav-grid">
+                            <a href="#" class="nav-grid-item"><i class="ti-files text-primary"></i>
+                                <h5>New Task</h5>
+                            </a>
+                            <a href="#" class="nav-grid-item"><i class="ti-check-box text-success"></i>
+                                <h5>Assign Task</h5>
+                            </a>
+                        </div>
+                        <div class="nav-grid">
+                            <a href="#" class="nav-grid-item"><i class="ti-pencil-alt text-warning"></i>
+                                <h5>Add Orders</h5>
+                            </a>
+                            <a href="#" class="nav-grid-item"><i class="ti-truck text-danger "></i>
+                                <h5>New Orders</h5>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-30">
+                    <a class="nav-link nav-pill user-avatar" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img src="images/profile-avatar.jpg" alt="avatar">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-0">Michael Bean</h5>
+                                    <span>michael-bean@mail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="text-secondary ti-reload"></i>Activity</a>
+                        <a class="dropdown-item" href="#"><i class="text-success ti-email"></i>Messages</a>
+                        <a class="dropdown-item" href="#"><i class="text-warning ti-user"></i>Profile</a>
+                        <a class="dropdown-item" href="#"><i class="text-dark ti-layers-alt"></i>Projects <span class="badge badge-info">6</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="text-info ti-settings"></i>Settings</a>
+                        <a class="dropdown-item" href="#"><i class="text-danger ti-unlock"></i>Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!--=================================
+ header End-->
+
+        <!--=================================
+ Main content -->
+
+        <div class="container-fluid">
+            <div class="row">
+                  <!-- Left Sidebar -->
+        <div class="side-menu-fixed">
+                <div class="scrollbar side-menu-bg">
+                  <ul class="nav navbar-nav side-menu" id="sidebarnav">
+                    <!-- menu item Dashboard-->
+                    <li>
+                      <a href="index-05.html">
+                        <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Dashboard</span></div>
+                        <div class="clearfix"></div>
+                      </a>
+                    </li>
+                    
+                    <!-- menu item user-->
+                    <li class="active">
+                      <a href="user-management.html"><i class="fa fa-user-o"></i><span class="right-nav-text">User </span></a>
+                    </li>
+                    <li>
+                      <a href="app-contacts.html"><i class="ti-user"></i><span class="right-nav-text">Members </span></a>
+                    </li>
+                    <li>
+                        <a href="data-game.html"><i class="ti-game"></i><span class="right-nav-text">Games </span></a>
+                      </li>
+                    <!-- menu item Authentication-->
+                    <li>
+                      <a href="javascript:void(0);" data-toggle="collapse" data-target="#authentication">
+                        <div class="pull-left"><i class="ti-id-badge"></i><span class="right-nav-text">Authentication</span></div>
+                        <div class="pull-right"><i class="ti-plus"></i></div>
+                        <div class="clearfix"></div>
+                      </a>
+                      <ul id="authentication" class="collapse" data-parent="#sidebarnav">
+                        <li> <a href="login.html">login</a> </li>
+                        <li> <a href="register.html">register</a> </li>
+                        <li> <a href="lockscreen.html">Lock screen</a> </li>
+                      </ul>
+                    </li>
+                    <!-- menu item timeline-->
+                 
+      
+                  </ul>
+                </div>
+              </div>
+              <!-- Left Sidebar End-->
+
+                <!--=================================
+ Main content -->
+
+
+                <!--=================================
+wrapper -->
+
+                <div class="content-wrapper">
+                    <div class="page-title">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h4 class="mb-0"> User Management</h4>
+                            </div>
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right ">
+                                    <li class="breadcrumb-item"><a href="#" class="default-color">Home</a></li>
+                                    <li class="breadcrumb-item active">User Management</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main body -->
+                    <div class="row">
+                        <div class="col-md-12 mb-30">
+                            <div class="card card-statistics h-100">
+                                <div class="card-body">
+                                    <div class="d-block d-md-flex justify-content-between">
+                                        <div class="d-block">
+                                            <div class="box">
+                                                <span class="text-info">Show </span>
+                                                <select class="fancyselect sm-mb-20">
+                                                    <option value="1">10</option>
+                                                    <option value="2">20</option>
+                                                    <option value="3">40</option>
+                                                    <option value="4">100</option>
+                                                </select>
+                                                <span class="text-info"> entries</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-block d-md-flex clearfix sm-mt-20">
+                                            <div class="clearfix">
+                                                <!-- <div class="box">
+                          <select class="fancyselect sm-mb-20 mr-20">
+                            <option value="1">Some option</option>
+                            <option value="2">Another option</option>
+                            <option value="3">A option</option>
+                            <option value="4">Potato</option>
+                          </select>
+                        </div> -->
+                                            </div>
+                                            <div class="widget-search ml-0 clearfix">
+                                                <i class="fa fa-search"></i>
+                                                <input type="search" class="form-control" placeholder="Search....">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive mt-20">
+                                        <table class="table center-aligned-table">
+                                            <thead>
+                                                <tr class="text-dark">
+                                                    <th>ID</th>
+                                                    <th>Name</th>
+                                                    <th>Email</th>
+                                                    <th>Point </th>
+                                                    <th>Balance </th>
+                                                    <!-- <th>Type </th> -->
+                                                    <th> </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> 01 </td>
+                                                    <td>Felica Queen</td>
+                                                    <td>felica@gmail.com</td>
+                                                    <td>454584</td>
+                                                    <td>123$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-warning"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>02 </td>
+                                                    <td>John Doe</td>
+                                                    <td>doe@gmail.com</td>
+                                                    <td>5665646</td>
+                                                    <td>
+                                                        1541$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-danger"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 03</td>
+                                                    <td>Alice Williams</td>
+                                                    <td>alicewilliams@gmail.com</td>
+                                                    <td>6545649</td>
+                                                    <td>
+                                                        789$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-success"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>04 </td>
+                                                    <td>Paul Flavius</td>
+                                                    <td>paulflavius@gmail.com</td>
+                                                    <td>6234894</td>
+                                                    <td>
+                                                        7123$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-dark"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 05</td>
+                                                    <td>Michael Bean</td>
+                                                    <td>michaelbean@gmail.com</td>
+                                                    <td>4546</td>
+                                                    <td>
+                                                        312$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-info"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 06</td>
+                                                    <td>Sara Lisbon</td>
+                                                    <td>saralisbon@gmail.com</td>
+                                                    <td>4664613</td>
+                                                    <td>
+                                                        6512$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-warning"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>07 </td>
+                                                    <td>Anne Smith</td>
+                                                    <td>annesmith@gmail.com</td>
+                                                    <td>548656</td>
+                                                    <td>
+                                                        579$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-danger"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>08</td>
+                                                    <td>Mellissa Doe</td>
+                                                    <td>mellissadoe@gmail.com</td>
+                                                    <td>4564561</td>
+                                                    <td>
+                                                        65123$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-success"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 09 </td>
+                                                    <td>Joana williams</td>
+                                                    <td>joanawilliams@gmail.com</td>
+                                                    <td>4894563</td>
+                                                    <td>
+                                                        312$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-info"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10 </td>
+                                                    <td>Michael Bean</td>
+                                                    <td>michaelbean@gmail.com</td>
+                                                    <td>4664563</td>
+                                                    <td>
+                                                        5123$
+                                                    </td>
+                                                    <!-- <td>
+                            <b><i class="pr-2 fa fa-circle text-dark"></i> Friends</b>
+                          </td> -->
+                                                    <td><a class="pr-2" href="#"> <i class="fa fa-pencil"></i></a> <a
+                                                            href="#"> <i class="fa fa-trash-o text-danger"></i></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="sm-mt-20">
+                                        <nav aria-label="Page navigation example">
+                                            <ul class="pagination justify-content-center">
+                                                <li class="page-item "><a class="page-link" href="#">Previous</a></li>
+                                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--=================================
+ wrapper -->
+
+                    <!--=================================
+ footer -->
+
+                    <footer class="p-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-center text-md-left">
+                                    <p class="mb-0"> &copy; Copyright <span id="copyright">
+                                            <script>
+                                                document.getElementById('copyright').appendChild(document.createTextNode(
+                                                    new Date().getFullYear()))
+                                            </script>
+                                        </span>. <a href="#"> Webmin </a> All Rights Reserved. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="text-center text-md-right">
+                                    <li class="list-inline-item"><a href="#">Terms & Conditions </a> </li>
+                                    <li class="list-inline-item"><a href="#">API Use Policy </a> </li>
+                                    <li class="list-inline-item"><a href="#">Privacy Policy </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=================================
+ footer -->
+
+
+
+    <!--=================================
+ jquery -->
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- plugins-jquery -->
+    <script src="js/plugins-jquery.js"></script>
+
+    <!-- plugin_path -->
+    <script>
+        var plugin_path = 'js/index.html';
+    </script>
+
+    <!-- chart -->
+    <script src="js/chart-init.js"></script>
+
+    <!-- calendar -->
+    <script src="js/calendar.init.js"></script>
+
+    <!-- charts sparkline -->
+    <script src="js/sparkline.init.js"></script>
+
+    <!-- charts morris -->
+    <script src="js/morris.init.js"></script>
+
+    <!-- datepicker -->
+    <script src="js/datepicker.js"></script>
+
+    <!-- sweetalert2 -->
+    <script src="js/sweetalert2.js"></script>
+
+    <!-- toastr -->
+    <script src="js/toastr.js"></script>
+
+    <!-- validation -->
+    <script src="js/validation.js"></script>
+
+    <!-- lobilist -->
+    <script src="js/lobilist.js"></script>
+
+    <!-- custom -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+<!-- Mirrored from themes.potenzaglobalsolutions.com/html/webmin-bootstrap-4-angular-5-admin-dashboard-template/html-dark/app-contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Mar 2019 03:36:33 GMT -->
+
+</html>

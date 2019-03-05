@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-6 col-xs-6">
                     <h5>Contact Us</h5>
-                    <p>Email: contact@extradecoin.com</p>
+                    <p>Email: khiem.codosa@gmail.com</p>
                     <p>Office Phone: +65 6871 8863</p>
                     <p>Address: 160 Robinson Rd, #26-10, Singapore Business Federation Center, Singapore 068914</p>
                 </div>
@@ -28,7 +28,7 @@
                     <hr class="animation-element extend in-view">
                 </div>
                 <div id="copyright" class="col-md-12 mt-2">
-                    <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2 pt-2" style="font-size: 16px; display: inline-block; color: rgb(118, 118, 118) !important;"><span class=" d-block d-md-inline-block"><b> © 2018 Token Play Game Center. All rights reserved</b></span></p>
+                    <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2 pt-2" style="font-size: 16px; display: inline-block; color: rgb(118, 118, 118) !important;"><span class=" d-block d-md-inline-block"><b> © 2019 Codosa Play Game Center. All rights reserved</b></span></p>
                 </div>
             </div>
         </div><!-- Container End -->
